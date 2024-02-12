@@ -122,7 +122,7 @@ def save_output(output_directory, sequence):
 #
 def create_marker(output_directory):
 
-    with open(os.path.join(output_directory, "SUCESS"), "w") as f:
+    with open(os.path.join(output_directory, "SUCCESS"), "w") as f:
         f.write("")
     
 #
